@@ -1,17 +1,34 @@
 # THE FORENSIC AUTOPSY
-## A Brutal Analysis of the November 2025 UK Budget
+## A Multi-Layered Experiment in AI, Policy Analysis, and Radical Transparency
 
 <div align="center">
 
-**BUILT BY AI • VERIFIED BY MATH • BIASED BY REALITY**
+**🧪 EXPERIMENT IN PROGRESS 🧪**
 
-*We do not blame the clowns; we audit the circus.*
+**BUILT BY AI • VERIFIED BY MATH • PUBLISHED AS SCIENCE**
+
+*We do not blame the clowns; we audit the circus—and then audit ourselves.*
 
 [![OBR Source](https://img.shields.io/badge/Source-OBR%20Economic%20%26%20Fiscal%20Outlook-blue)](https://obr.uk/efo/economic-and-fiscal-outlook-november-2025/)
 [![Gov.uk](https://img.shields.io/badge/Source-Gov.uk%20Budget%202025-blue)](https://www.gov.uk/government/collections/budget-2025)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 </div>
+
+---
+
+## 🧪 WHAT IS THIS EXPERIMENT?
+
+This repository is **six experiments running simultaneously**:
+
+1. **Technical**: Can one person + AI build professional policy analysis in hours?
+2. **Epistemological**: What happens when AI trained on economic discourse analyzes a budget?
+3. **Communication**: Can games teach fiscal policy better than articles?
+4. **Institutional**: What does this mean for think tanks and policy journalism?
+5. **Transparency**: Does publishing your own critique provide rhetorical immunity?
+6. **Reflexivity**: Can AI meaningfully critique its own outputs?
+
+**For the full experimental framework, read [DEEP_ANALYSIS.md](./DEEP_ANALYSIS.md)**—which is itself part of the experiment.
 
 ---
 
@@ -30,21 +47,21 @@ If you find a calculation error:
 
 ---
 
-## 📖 READ THE DEEP ANALYSIS FIRST
+## 📖 THE EXPERIMENT'S PRIMARY DOCUMENT
 
 Before you judge this site, read this:
 
 ### **[📄 DEEP_ANALYSIS.md](./DEEP_ANALYSIS.md)**
 
-A 5,000+ word critical examination of this project—written by the same AI that helped build it. It covers:
+A 6,000+ word document that is simultaneously:
 
-- What the site gets **right**
-- What the site gets **wrong** (or oversimplifies)
-- The political biases embedded in the framing
-- Why this project exists at all
-- What it means that one person + AI can do this
+- **Self-critique**: What the site gets right and wrong
+- **Experimental framework**: The six experiments we're running
+- **Legal positioning**: "I didn't do anything, governor"
+- **Philosophical inquiry**: Who is the author when AI synthesizes?
+- **Part of the experiment itself**: AI critiquing AI-generated work
 
-**We published our own critique because transparency is armor.**
+**The experiment is the documentation. The documentation is the experiment.**
 
 ---
 
@@ -216,9 +233,9 @@ These biases shaped the prompts. The prompts shaped the outputs. We're telling y
 
 ---
 
-## 🎮 The Game Has Changed
+## 🎮 The Game Has Changed (That's The Point)
 
-Here's what we want you to understand:
+Here's what this experiment demonstrated:
 
 **One person with AI assistance just:**
 - Parsed a 200-page government document
@@ -227,16 +244,17 @@ Here's what we want you to understand:
 - Designed a professional-grade website
 - Wrote comprehensive policy analysis
 - Published self-criticism alongside the work
+- Documented the entire process as an experiment
 
 **In hours. Not months. Hours.**
 
-This is not a flex. This is a **warning and a promise**.
+This is not a flex. This is **Experiment #4: Institutional Obsolescence**.
 
-### The Warning
+### The Finding
 
 If we can do this, so can anyone. The era of institutional gatekeeping over policy analysis is ending. Think tanks, media organizations, government communications teams—you are no longer the only ones who can make this stuff legible.
 
-### The Promise
+### The Implication
 
 This is a good thing. Democracy requires informed citizens. Informed citizens require accessible information. For too long, policy has been hidden behind:
 - 200-page documents no one reads

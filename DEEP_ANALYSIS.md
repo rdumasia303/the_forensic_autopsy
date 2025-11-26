@@ -6,6 +6,99 @@
 
 ---
 
+## 🧪 PREAMBLE: THIS IS AN EXPERIMENT
+
+**Before reading further, understand what you're looking at.**
+
+This entire repository—the website, the games, the calculators, this analysis document, and the README—is a **multi-layered experiment** in several domains simultaneously:
+
+### Experiment 1: Technical
+**Question**: Can a single person with AI assistance build a professional-grade interactive policy analysis website in one day?
+
+**Method**: Feed 200 pages of OBR data to multiple LLMs (Claude Opus 4.5, GPT-5.1, Gemini 3.0 Pro), prompt for "factual and satirical" analysis, see what emerges.
+
+**Result**: ~5,500 lines of working TypeScript, 4 playable games, interactive calculators. You're looking at it.
+
+### Experiment 2: Epistemological
+**Question**: What happens when AI systems trained on human economic thought analyze a government budget? Do they reproduce existing critiques, or synthesize something new?
+
+**Method**: The human wrote zero code and minimal direction. The prompt was essentially: "Analyze this. Find the problems. Consider alternatives. Be factual and satirical."
+
+**Result**: The LLMs produced arguments that exist in the "atmosphere" of economic discourse—fiscal drag critiques from the IFS, r>g from Piketty, marginal rate traps from welfare economists. The AI didn't invent these ideas. It *synthesized and visualized* them. This raises questions about authorship, originality, and the nature of economic "common knowledge."
+
+### Experiment 3: Political Communication
+**Question**: Can interactive games teach fiscal policy more effectively than articles? Can satire coexist with rigorous sourcing?
+
+**Method**: Build games that make you *feel* marginal tax rates (Deliveroo Simulator), threshold traps (Snakes & Ladders), welfare bureaucracy (Pathways to Nowhere), and passive wealth accumulation (Asset Idle Clicker).
+
+**Result**: TBD—depends on how readers respond. But the hypothesis is that *experienced* knowledge sticks better than *read* knowledge.
+
+### Experiment 4: Institutional Obsolescence
+**Question**: If one person can do this, what is the future of think tanks, policy journalism, and government communications?
+
+**Method**: Build the thing. Publish the thing. Time how long it took. Compare to institutional equivalents.
+
+**Result**: The site exists. It took hours. The IFS annual analysis takes months. This is not a quality comparison (the IFS is more rigorous). It's a *speed and accessibility* comparison. And it raises uncomfortable questions.
+
+### Experiment 5: Radical Transparency
+**Question**: What happens if you publish your own critique alongside your work? Does self-criticism function as legal and rhetorical armor?
+
+**Method**: Write a 5,000+ word analysis identifying every flaw, bias, and oversimplification in the site. Publish it in the same repository.
+
+**Result**: You're reading it. The experiment is whether this inoculates against bad-faith attacks, or invites them.
+
+### Experiment 6: AI Reflexivity  
+**Question**: Can an AI meaningfully critique work it helped create? Is there value in AI-assisted self-examination?
+
+**Method**: Ask the same AI (Claude) that wrote the code to write a critical analysis of the code and content.
+
+**Result**: This document. Judge for yourself whether it's genuine critique or elaborate cope.
+
+---
+
+### The "I Didn't Do Anything, Governor" Defense
+
+Here's the uncomfortable truth for anyone who wants to be angry at this project:
+
+**The human didn't write the content.** The LLMs did.
+
+**The LLMs didn't invent the arguments.** They synthesized existing economic discourse.
+
+**The existing discourse comes from**... the IFS, the Resolution Foundation, academic economists, the OBR itself.
+
+**The OBR data comes from**... the government.
+
+So if you're upset by what this site says, your complaint is with:
+1. The government's own data
+2. The economic consensus that data implies
+3. The decades of policy discourse the LLMs were trained on
+4. The LLMs themselves
+5. And finally, maybe, the human who pointed the LLMs at the data
+
+**The human's only "crime" was asking: "What does this data actually mean, explained simply and satirically?"**
+
+Everything else emerged from the collision of AI capabilities and government transparency.
+
+*If the results are uncomfortable, perhaps that says more about the underlying reality than the messenger.*
+
+---
+
+### What This Analysis Is
+
+This document is:
+- A critical examination of the site's strengths and weaknesses
+- An acknowledgment of biases and simplifications
+- A technical breakdown of how it was built
+- A philosophical exploration of what it means that it *could* be built
+- A legal and rhetorical positioning document
+- **Part of the experiment itself**
+
+Read it as any or all of these. 
+
+The experiment continues.
+
+---
+
 ## I. WHAT THIS IS
 
 This is not a website. This is a **rage artifact**.
