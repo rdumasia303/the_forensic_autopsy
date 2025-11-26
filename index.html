@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Autopsy: Death of the Social Contract</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=JetBrains+Mono:wght@400;700&family=Courier+Prime:wght@400;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+              receipt: ['Courier Prime', 'monospace'],
+              display: ['Space Mono', 'monospace'],
+            },
+            colors: {
+              'acid-green': '#ccff00',
+              'blood-red': '#ff0f0f',
+              'void': '#050505',
+              'concrete': '#1a1a1a',
+              'paper': '#f0f0f0',
+              'ink': '#1a1a1a',
+            },
+            backgroundImage: {
+              'noise': "url('https://www.transparenttextures.com/patterns/noise.png')",
+              'thermal': "repeating-linear-gradient(0deg, transparent, transparent 2px, #00000005 4px)",
+            },
+            animation: {
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+              'float': 'float 6s ease-in-out infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #050505;
+        color: #e5e5e5;
+      }
+      .glitch-text:hover {
+        text-shadow: 2px 0 #ff0f0f, -2px 0 #ccff00;
+      }
+      .scanline {
+        width: 100%;
+        height: 2px;
+        background: rgba(255,255,255,0.1);
+        position: absolute;
+        z-index: 10;
+        animation: scanline 6s linear infinite;
+        pointer-events: none;
+      }
+      @keyframes scanline {
+        0% { top: 0%; }
+        100% { top: 100%; }
+      }
+      .jagged-bottom {
+        position: relative;
+      }
+      .jagged-bottom::after {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(45deg, transparent 33.333%, #f0f0f0 33.333%, #f0f0f0 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #f0f0f0 33.333%, #f0f0f0 66.667%, transparent 66.667%);
+        background-size: 20px 40px;
+        background-position: 0 -20px;
+      }
+      .jagged-top {
+        position: relative;
+      }
+      .jagged-top::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 0;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(45deg, transparent 33.333%, #f0f0f0 33.333%, #f0f0f0 66.667%, transparent 66.667%), linear-gradient(-45deg, transparent 33.333%, #f0f0f0 33.333%, #f0f0f0 66.667%, transparent 66.667%);
+        background-size: 20px 40px;
+        background-position: 0 10px;
+        transform: rotate(180deg);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "recharts": "https://aistudiocdn.com/recharts@^3.5.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
