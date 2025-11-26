@@ -66,24 +66,35 @@ export default function TheHousingDelusion() {
         </HousingCard>
 
         {/* The Rental Attack */}
-        <HousingCard title="The Rental Attack (Para 3.79)">
+        <HousingCard title="The Rental Misdirection (Para 3.79)">
           <div className="space-y-6">
             <div className="flex items-start gap-4">
-              <div className="p-3 bg-blood-red/10 border border-blood-red">
-                <AlertTriangle className="text-blood-red" size={24} />
+              <div className="p-3 bg-orange-500/10 border border-orange-500">
+                <AlertTriangle className="text-orange-500" size={24} />
               </div>
               <div className="space-y-2">
                 <p className="text-sm text-zinc-400 font-receipt">
-                  The OBR explicitly warns that the Stamp Duty hike on second homes (to 5%) will backfire on tenants.
+                  The OBR warns that the Stamp Duty hike on second homes (to 5%) will "reduce supply" and raise rents. Let's examine that claim:
                 </p>
                 <div className="bg-zinc-900 p-4 border border-zinc-800 italic text-zinc-300 text-sm font-serif">
                   "...reduce returns to private landlords and will reduce the supply of rental property... risks a steady long-term rise in rents."
                 </div>
-                <div className="pt-2">
-                  <p className="text-xs text-blood-red font-bold uppercase">The Consequence:</p>
-                  <p className="text-sm text-zinc-400 mt-1">
-                    Landlords sell up. Supply drops. Rents rise. The state collects the transaction tax (SDLT) while the tenant pays the price in higher monthly rent.
+                <div className="pt-2 space-y-3">
+                  <p className="text-xs text-acid-green font-bold uppercase">Wait—Does Supply Actually Drop?</p>
+                  <p className="text-sm text-zinc-400">
+                    When a landlord sells, the house doesn't vanish. Either:
                   </p>
+                  <ul className="text-sm text-zinc-400 list-disc pl-4 space-y-1">
+                    <li><span className="text-white">Another landlord buys it</span> → rental supply unchanged</li>
+                    <li><span className="text-white">A first-time buyer gets it</span> → one less renter competing → demand drops too</li>
+                  </ul>
+                  <div className="bg-zinc-900 p-4 border-l-2 border-acid-green mt-3">
+                    <p className="text-xs text-zinc-300">
+                      <span className="text-acid-green font-bold">THE REAL CRITIQUE:</span> Punishing leveraged buy-to-let is probably <span className="text-white">good policy</span>—these landlords extracted economic rent via cheap debt, outbidding first-time buyers. 
+                      The problem is <span className="text-white">how</span> it's being done: transaction taxes (SDLT) are economically stupid. 
+                      They punish mobility, not ownership. A <span className="text-white">Land Value Tax</span> would tax the ongoing windfall, not the transfer.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
